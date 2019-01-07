@@ -23,8 +23,8 @@
 23- select EmployeeID, CustomerID from Orders;
 24- select * from information_schema.tables;
 	/* there is only 1 table */
-25- /* table is called cars. There are 1284 rows so 1284 records */
+25- /* table is called cars. There are 428 records */
 26- select make, model from dbo.cars where DriveTrain='All'; 
-	/* 276 records were affected */
+	/* 92 records were affected */
 27- select Type, origin from dbo.cars where Origin='USA';
-	/* 441 records affected */
+	/* 147 records affected */
