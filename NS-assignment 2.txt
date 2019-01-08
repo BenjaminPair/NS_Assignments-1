@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1- one
 2- zero
 3- one
@@ -21,4 +22,29 @@
 21- two
 22- two
 23- five
+=======
+1- one
+2- zero
+3- one
+4- two
+5- one
+6- one
+7- one
+8- zero
+9- one
+10- two
+11- one
+12- one
+13- 86
+14- 89
+15- 78
+16- 89
+17- 82
+18- 80
+19- two
+20- three
+21- two
+22- two
+23- five
+>>>>>>> saving multiple files
 24- five
