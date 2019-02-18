@@ -23,3 +23,15 @@ x = 5%2
 print(x)
 1
 '''
+
+#a- ** represents the "raise to the power" function
+#b- * used to multiply
+
+'''
+print("please enter minutes to convert: ")
+minutes = int(input())
+
+hours = (minutes/60)
+
+print (hours, ':', minutes)
+'''
