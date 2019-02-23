@@ -1,0 +1,81 @@
+<div show-header="true" show-footer="true" show-top-tabs="true" show-tabs="true"
+ng-controller="profile" ng-cloak ng-init="init()" class="aio-empty-screen padding overflow-scroll">
+    <button class="button button-block button-large">
+        Create Event
+    </button>
+    <p>
+        Event Name:
+    </p>
+    <div class="item item-input">
+        <input type="text" placeholder="Enter text" value="">
+    </div>
+    <p>
+        Date Due:
+    </p>
+    <div class="item item-input item-select ">
+        <div class="input-label">
+            Select label
+        </div>
+        <select>
+            <option>
+                Option
+            </option>
+            <option>
+                Option
+            </option>
+            <option>
+                Option
+            </option>
+        </select>
+    </div>
+    <p>
+        Items to be Ranked:
+    </p>
+    <div class="list">
+        <div class="item">
+            <p>
+            </p>
+            Item text
+        </div>
+        <div class="item">
+            <p>
+            </p>
+            Item text
+        </div>
+        <div class="item">
+            <p>
+            </p>
+            Item text
+        </div>
+    </div>
+    <button class="button button-block">
+        + add another item
+    </button>
+    <p>
+        Select Ranking Type
+        <br>
+    </p>
+    <ion-scroll paging="false">
+    </ion-scroll>
+    <div class="button-bar">
+        <button class="button button-block">
+            1,2,3...
+        </button>
+        <button class="button button-block">
+            Hi, Med, Low
+        </button>
+    </div>
+    <ion-scroll paging="false">
+        <ion-checkbox>
+            Private list
+        </ion-checkbox>
+        <ion-scroll paging="false">
+        </ion-scroll>
+        <ion-checkbox>
+            Public list
+        </ion-checkbox>
+        <p>
+            Description
+        </p>
+    </ion-scroll>
+</div>
